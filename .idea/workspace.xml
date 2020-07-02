@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1aaed9a-c1d0-494a-935e-71a5a1ac4b4b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1coDNVt0tz6YzqgBaW4mFiY08SQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Utills" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.QueryParameterCallTest">
+    <configuration name="GetApiCallForPetsTest.getApiMethodForPetsExampleWithPathParameter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestApiTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.training.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.training.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.training.rest.GetApiCallForPetsTest" />
+      <option name="METHOD_NAME" value="getApiMethodForPetsExampleWithPathParameter" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OAuthDemoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestApiTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.training.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.training.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.training.rest.OAuthDemoTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OAuthDemoTest.getCallForRetrievesUserThatTiedToTheAccessToken" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestApiTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.training.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.training.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.training.rest.OAuthDemoTest" />
+      <option name="METHOD_NAME" value="getCallForRetrievesUserThatTiedToTheAccessToken" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PutApiCallWithBodyTest.hitThePutCallUsingBody" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestApiTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.training.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.training.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.training.rest.PutApiCallWithBodyTest" />
+      <option name="METHOD_NAME" value="hitThePutCallUsingBody" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryParameterCallTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestApiTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.training.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.training.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.training.rest.QueryParameterCallTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.QueryParameterCallTest" />
+        <item itemvalue="TestNG.PutApiCallWithBodyTest.hitThePutCallUsingBody" />
+        <item itemvalue="TestNG.GetApiCallForPetsTest.getApiMethodForPetsExampleWithPathParameter" />
+        <item itemvalue="TestNG.OAuthDemoTest" />
+        <item itemvalue="TestNG.OAuthDemoTest.getCallForRetrievesUserThatTiedToTheAccessToken" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1aaed9a-c1d0-494a-935e-71a5a1ac4b4b" name="Default Changelist" comment="" />
+      <created>1591186012060</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591186012060</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1591363806017">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1591363806017" />
+    <state x="509" y="223" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593148366644">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="509" y="223" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1593148366644" />
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1591619044375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591619044375" />
+    <state x="267" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593152927496">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="267" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1593152927496" />
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593438883418">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593438883418" />
+    <state width="486" height="466" key="DebuggerActiveHint" timestamp="1593520108721">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="486" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1593520108721" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1593681673869">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1593008877818" />
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1593179419004" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593681673869" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1593681673868">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1593008877818" />
+    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1593179419004" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593681673868" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1593681673867">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1593008877817" />
+    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1593179419004" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593681673867" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1593681673869">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1593008877818" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1593179419004" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593681673869" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593612543151">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593612543151" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1593612543151">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593612543151" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1593612543151">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593612543151" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1593612543151">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593612543151" />
+    <state x="299" y="71" key="Maven.ArtifactSearchDialog" timestamp="1591187104129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="71" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1591187104129" />
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1593673712694">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593673712693" />
+    <state x="523" y="31" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591614081712">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="523" y="31" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1591614081712" />
+    <state x="209" y="118" key="new project wizard" timestamp="1591268395707">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="118" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1591268395707" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1593595131200">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593595131200" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593668445990">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593668445990" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RestApiTesting$GetApiCallForPetsTest_getApiMethodForPetsExampleWithPathParameter__3_.ic" NAME="GetApiCallForPetsTest.getApiMethodForPetsExampleWithPathParameter (3) Coverage Results" MODIFIED="1593519920985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.training.rest.*</FILTER>
+    </SUITE>
+  </component>
+</project>
