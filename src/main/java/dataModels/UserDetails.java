@@ -1,10 +1,10 @@
 package dataModels;
 
 public class UserDetails {
-    String name;//private
-    String job;
-    String id;
-    String createdAt;
+    private  String name;//private
+    private  String job;
+    private  String id;
+    private  String createdAt;
 
     public String getName() {
         return name;
