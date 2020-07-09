@@ -37,16 +37,4 @@ public class UserDetails {
     public void setCreatedAt(String createdAt) {
         this.createdAt = createdAt;
     }
-    /*public UserDetails(String name, String job*//*,String id,String createdAt*//*) {
-        this.name = name;
-        this.job = job;
-        *//*this.id=id;
-        this.createdAt=createdAt;*//*
-
-    }*/
-
-
-   /* public  String toString(){
-        return this.name
-    }*/
 }
