@@ -1,18 +1,18 @@
-package Utills;
+package utils;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.json.JSONObject;
 
-public class ApiUtils {
+public class RestAssuredUtils {
 
     public static String endPointUrlFilePath = System.getProperty("user.dir") + "\\src\\main\\resources\\EndPoint.properties";
 
-    public static String convertApiResponseString(Response response) {
+    public static String convertApiResponseToString(Response response) {
         return response.asString();
     }
 
-    public static JsonPath convertApiResponseJSONPath(Response response) {
+    public static JsonPath convertApiResponseToJSONPath(Response response) {
         return new JsonPath(response.asString());
     }
 

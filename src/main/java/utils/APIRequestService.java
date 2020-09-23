@@ -1,4 +1,4 @@
-package Utills;
+package utils;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -7,18 +7,18 @@ import java.util.HashMap;
 
 import static io.restassured.RestAssured.*;
 
-public class CallApiAndGetResponse {
+public class APIRequestService {
 
     public static Response getCall(String url) {
-        return given().get(url);
+        return given().contentType(ContentType.JSON).when().get(url);
     }
 
     public static Response getCall(String accessToken, String url) {
-        return given().auth().oauth2(accessToken).get(url);
+        return given().contentType(ContentType.JSON).auth().oauth2(accessToken).get(url);
     }
 
     public static Response getCall(HashMap<String, String> payLoadForQueryParam, String url) {
-        return given().when().queryParams(payLoadForQueryParam).get(url);
+        return given().queryParams(payLoadForQueryParam).when().get(url);
     }
 
     public static Response getCall(String url, HashMap<String, String> payLoadForPathParam) {
@@ -34,10 +34,14 @@ public class CallApiAndGetResponse {
     }
 
     public static Response postCall(String requestBody, String url) {
-        return given().contentType(ContentType.JSON).when().body(requestBody).post(url);
+        return given().contentType(ContentType.JSON).body(requestBody).when().post(url);
     }
 
     public static Response postCall(String accessToken, String url, HashMap<String, String> pathParam) {
-        return given().auth().oauth2(accessToken).post(url, pathParam);
+        return given().contentType(ContentType.JSON).auth().oauth2(accessToken).post(url, pathParam);
+    }
+
+    public static Response postCall(HashMap<String, String> formParam, String url) {
+        return given().formParams(formParam).post(url);
     }
 }

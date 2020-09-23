@@ -1,7 +1,6 @@
 package requestResponse;
 
-import Utills.ApiUtils;
-import Utills.CallApiAndGetResponse;
+import utils.RestAssuredUtils;
 import base.ResponseStatusCodes;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -10,8 +9,8 @@ import org.json.JSONArray;
 public class ResponseHelperForWithoutHeaderCall extends ResponseStatusCodes {
     public static String validateResponseForGetCall(Response response) {
         //Your validations
-        System.out.println("Total Response" + ApiUtils.convertApiResponseString(response));
-        JsonPath jsonPath = ApiUtils.convertApiResponseJSONPath(response);
+        System.out.println("Total Response" + RestAssuredUtils.convertApiResponseToString(response));
+        JsonPath jsonPath = RestAssuredUtils.convertApiResponseToJSONPath(response);
         JSONArray jsonArray = new JSONArray(jsonPath.getList("data"));
         //then do next filers are operations;
         System.out.println("Size" + jsonArray.length());

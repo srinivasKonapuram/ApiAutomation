@@ -1,7 +1,7 @@
 package requestResponse;
 
-import Utills.ApiUtils;
-import Utills.FileReader;
+import utils.RestAssuredUtils;
+import utils.FileReader;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.json.JSONObject;
@@ -17,13 +17,13 @@ public class ResponseHelperForPutCallWithBody {
     }
     public static HashMap<String, String> passPathParaMeters() {
         HashMap<String, String> myHash = new HashMap<>();
-        myHash.put("id", new FileReader().getDataFromPropertiesFile(ApiUtils.endPointUrlFilePath).getProperty("pathParamValue"));
+        myHash.put("id", new FileReader().getDataFromPropertiesFile(RestAssuredUtils.endPointUrlFilePath).getProperty("pathParamValue"));
         return myHash;
     }
 
     public static String validateResponse(Response response) {
-            System.out.println("Total Response" + ApiUtils.convertApiResponseString(response));
-            JsonPath jsonPath = ApiUtils.convertApiResponseJSONPath(response);
+            System.out.println("Total Response" + RestAssuredUtils.convertApiResponseToString(response));
+            JsonPath jsonPath = RestAssuredUtils.convertApiResponseToJSONPath(response);
             System.out.println("Name of user" + jsonPath.getString("name"));
             System.out.println("job of User" + jsonPath.getString("job"));
             return jsonPath.getString("name");

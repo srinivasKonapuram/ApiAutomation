@@ -1,7 +1,7 @@
 package dataModels;
 
 public class UserDetails {
-    private  String name;//private
+    private  String name;
     private  String job;
     private  String id;
     private  String createdAt;
